@@ -20,6 +20,6 @@ poco(resourceId="com.android.browser:id/url").click()
 text('https://h5.waimai.meituan.com/waimai/mindex/home')
 time.sleep(60.0)
 poco(text="距离最近").click()
-for i in range(10):
+for i in range(25000):
     time.sleep(1)
     poco.swipe([0.5, 0.8], [0.5, 0.1])
